@@ -53,7 +53,7 @@ const spec = {
   DISALLOW_LOGIN_FORM: bool({ default: false }),
   SERVER_IP_ADDRESS: str({ default: "" }),
   SERVER_CNAME_ADDRESS: str({ default: "" }),
-  CUSTOM_DOMAIN_USE_HTTPS: bool({ default: false }),
+  CUSTOM_DOMAIN_USE_HTTPS: str({ default: "" }),
   JWT_SECRET: str({ devDefault: "securekey" }),
   MAIL_ENABLED: bool({ default: false }),
   MAIL_HOST: str({ default: "" }),
